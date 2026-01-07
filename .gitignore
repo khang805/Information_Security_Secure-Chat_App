@@ -1,0 +1,47 @@
+# Secrets and credentials
+.env
+*.key
+*.pem
+*.crt
+*.cert
+*.p12
+*.pfx
+
+# Certificates and keys directory
+certs/
+*.cer
+
+# Transcripts and logs
+transcripts/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database dumps (may contain sensitive data)
+*.sql
+*.dump
+
+# Temporary files
+*.tmp
+*.bak
+
